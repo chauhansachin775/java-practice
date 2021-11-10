@@ -1,0 +1,8 @@
+workspace/
+bin/
+desktop.ini
+.class
+.metadata/
+codebase/webdriverbasics/
+.project
+.classpath
