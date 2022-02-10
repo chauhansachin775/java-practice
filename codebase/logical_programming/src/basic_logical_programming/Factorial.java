@@ -7,14 +7,14 @@ public class Factorial {
 	public static void main(String[] args) {
 		
 		int num;
-		int i;
-		int factorial = 1;
+		//int i;
+		long factorial = 1;
 		Scanner in = new Scanner(System.in);
 				
 		System.out.println("Enter the number to find it's factorial:");
 		num = in.nextInt();
 		
-		for (i = 1; i <= num; i++)
+		for (int i = 1; i <= num; i++)
 		{
 			factorial = factorial * i;
 		}

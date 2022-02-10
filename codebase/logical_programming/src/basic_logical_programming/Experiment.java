@@ -233,11 +233,80 @@ public class Experiment {
 		}
 		*/
 		
-		double d = 'g';
-		System.out.println(d);
+		//double d = 'g';
+		//System.out.println(d);
+		
+		/*
+		 * String str = "Sachin"; String result = ""; char ch;
+		 * 
+		 * System.out.println(str); System.out.println(result);
+		 * 
+		 * for(int i = 0; i< str.length(); i++) { ch = str.charAt(i); result =
+		 * ch+result; //concatination operation System.out.println(result.length());
+		 * System.out.println(result.charAt(i)); }
+		 * 
+		 * System.out.println(result);
+		 */		
+		
+		/*
+		 * String str = "sachin"; char[] arr = new char[str.length()];
+		 * 
+		 * for (int i = str.length()-1, j=0; i >=0; i--, j++) { arr[j] =str.charAt(i); }
+		 * System.out.println(arr);
+		 */
+		
+		/*
+		 * String str = "sachin"; char [] arr = str.toCharArray();
+		 * 
+		 * for (int i = arr.length-1; i >= 0; i--) { System.out.print(arr[i]); }
+		 */		
+		
+		/*
+		 * int [] arr = {1,2,3,4,5,6,7,9,10};
+		 * 
+		 * int totalCount = 0, totalEle = 10;
+		 * 
+		 * 
+		 * for(int i =0; i <= arr.length-1; i++) { totalCount = totalCount + arr[i];
+		 * 
+		 * } int expectedCount = ((totalEle)*(totalEle + 1))/2;
+		 * System.out.println(expectedCount - totalCount);
+		 */
+		
+		/*
+		 * int [] arr = {1,2,3,3,4,5,5,5};
+		 * 
+		 * for(int i = 0, j=1; i < arr.length && j <arr.length; i++, j++) {
+		 * if(arr[i]==arr[j]) { System.out.println(arr[jz]); }
+		 * 
+		 * }
+		 */
 		
 		
+         
+	       // System.out.println("Duplicate elements in given array: ");  
+	        //Searches for duplicate element  
+		/*
+		 * for(int i = 0; i < arr.length; i++) { for(int j = i + 1; j < arr.length; j++)
+		 * { if(arr[i] == arr[j]) System.out.println(arr[j]); } }
+		 */  
 		
 		
+		/*
+		 * int [] arr = new int [] {1, 2, 3, 4, 2, 7, 8, 8, 8, 3}; int [] dub =
+		 * 
+		 * for(int i = 0; i< arr.length; i++) { for(int j = 1; j< arr.length; j++) {
+		 * 
+		 * } }
+		 */		
+		
+		/*
+		 * String s = new String("sachin"); s.concat("chauhan"); System.out.println(s);
+		 */
+		
+		
+		String s = "sachin";
+		//s.concat("chauhan");
+		System.out.println(s.concat("chauhan"));
 	}
 }

@@ -15,12 +15,11 @@ class Q1 extends P1{
 	}
 }
 
-public class Experiments {
+public class Experiments extends Q1{
 	
-	public static void main(String[] args) {
-		
-		Q1 obj = new Q1();
-		System.out.println("in main b1:"+obj);
-	}
-
+	/*
+	 * public static void main(String[] args) {
+	 * 
+	 * Q1 obj = new Q1(); System.out.println("in main b1:"+obj); }
+	 */
 }
